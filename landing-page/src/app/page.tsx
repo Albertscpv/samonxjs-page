@@ -9,7 +9,7 @@ export default function Home() {
               <h2 className="font-bold text-6xl font-geistS text-white">Bienvenidos a Samo D</h2>
               <span className="block text-xl">Innovación en soluciones, eficiencia en resultados</span>
               <Link href="/about">
-                <button className="p-4 bg-white text-black my-6">
+                <button className="p-4 bg-white text-black my-6 hover:bg-black hover:text-white transition duration-600 hover:border">
                   Get Started
                 </button>
               </Link>

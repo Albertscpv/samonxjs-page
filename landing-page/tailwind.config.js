@@ -1,6 +1,7 @@
-import type { Config } from "tailwindcss";
+/** @type {import('tailwindcss').Config} */
+import animations from '@midudev/tailwind-animations'
 
-const config: Config = {
+module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,6 +19,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    animations
+  ],
 };
-export default config;

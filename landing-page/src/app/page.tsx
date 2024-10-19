@@ -9,9 +9,15 @@ export default function Home() {
               <h2 className="font-bold text-6xl font-geistS text-white">Bienvenidos a Samo D</h2>
               <span className="block text-xl">Innovación en soluciones, eficiencia en resultados</span>
               <Link href="/about">
-                <button>Get Started</button>
+                <button className="p-4 bg-white text-black my-6">
+                  Get Started
+                </button>
               </Link>
           </div>
+
+          {/* General info and preview about our employees and portflio */}
+          {/* Preview to go into our services */}
+          {/* Our contact info */}
         </div>
     </div>
   );

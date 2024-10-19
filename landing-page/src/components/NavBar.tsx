@@ -17,7 +17,7 @@ const NavBar = () => {
             <ul className="flex text-[#888] gap-4 flex-grow">
                 {navLinks.map((navLink) => (
                     <li key={navLink.path}>
-                        <Link href={navLink.path} className="hover:text-white">
+                        <Link href={navLink.path} className="hover:text-white transition duration-600">
                             {navLink.title}
                         </Link>
                     </li>

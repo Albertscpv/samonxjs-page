@@ -23,8 +23,8 @@ const NavBar = () => {
                     </li>
                 ))}
             </ul>
-            <div className="flex gap-2 text-white">
-                    Icon
+            <div className="flex gap-2 text-white font-bold text-2xl cursor-pointer">
+                    Samo D
             </div>
         </div>
         </div>
